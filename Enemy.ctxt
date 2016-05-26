@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Enemy
+comment0.text=\r\n\ This\ class\ will\ create\ the\ attributes\ for\ the\ enemies.\ For\ instance,\ it\ creates\ the\r\n\ movement\ for\ the\ enemy\ and\ the\ spawning\ patterns.\r\n\ \r\n\ @author\ Lawrence\ Cheng\r\n\ \ \ \ \ \ \ \ \ \ Methods\ onDeath()\ and\ powerup\ (slow\ speed)\ were\ completed\ by\ Kevin\r\n\ @version\ 5/5/16\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Randomly\ moves\ within\ world,\ avoiding\ walls\ and\ world\ edges.\r\n\ \r\n\ Lawrence\ Cheng\r\n
+comment2.params=
+comment2.target=void\ eat()
+comment2.text=\r\n\ Eats\ Runner\ if\ collides\ with\ them.\ Always\ checking\ for\ Runners.\r\n\ \r\n\ Lawrence\ Cheng\r\n
+comment3.params=
+comment3.target=void\ slowSpeed()
+comment3.text=\r\n\ Method\ used\ by\ PowerUp\ to\ slow\ the\ speed\ of\ enemies.\ Sets\ speed\ to\ 0.6.\r\n\ \r\n\ Kevin\ Ge\r\n
+comment4.params=
+comment4.target=void\ onDeath()
+comment4.text=\r\n\ Called\ when\ this\ enemy\ dies.\ 40%\ chance\ to\ drop\ powerup.\ Adds\ 30\ points\ to\ score.\ Reduces\ numEnemies\ in\ world\ by\ one.\r\n\ \r\n\ Kevin\ Ge\r\n
+numComments=5

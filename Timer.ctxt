@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Timer
+comment0.text=\r\n\ Creates\ a\ timer\ for\ the\ game\ and\ records\ the\ duration\ for\ which\ the\ game\ is\ played.\r\n\ \r\n\ @author\ Lawrence\ Cheng\r\n\ @version\ 5/12/16\r\n
+comment1.params=
+comment1.target=Timer()
+comment1.text=\r\n\ Constructor\ for\ timer.\ Sets\ variables\ for\ points\ and\ seconds\ to\ 0.\ Count\ to\ 65.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Counts\ time\ using\ 65\ acts\ \=\ 1\ second.\ Adds\ points\ about\ 2\ every\ second.\ Displays\ info\ at\ top\ of\ screen.\r\n
+comment3.params=
+comment3.target=void\ display()
+comment3.text=\r\n\ Displays\ time\ and\ points\ during\ gameplay.\r\n
+comment4.params=
+comment4.target=boolean\ counter()
+comment4.text=\r\n\ Checks\ if\ 65\ acts\ has\ elasped.\r\n\r\n\ @return\ true\ if\ 65\ acts\ has\ passed,\ false\ otherwise\r\n
+comment5.params=
+comment5.target=int\ getTime()
+comment5.text=\r\n\ Returns\ the\ current\ time\ in\ seconds.\r\n\r\n\ @return\ time\ elasped\ since\ initialization\r\n
+comment6.params=
+comment6.target=int\ getPoints()
+comment6.text=\r\n\ Returns\ current\ amount\ of\ points.\r\n\r\n\ @return\ points\r\n
+comment7.params=point
+comment7.target=void\ addPoints(int)
+comment7.text=\r\n\ Adds\ an\ amount\ to\ points.\r\n\r\n\ @param\ point\ amount\ to\ add\r\n
+numComments=8

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Projectile
+comment0.text=\r\n\ This\ generates\ projectiles\ from\ the\ character\ that\ will\ destroy\ enemies\ within\ the\ game\r\n\ \r\n\ @author\ Lawrence\ Cheng\ \r\n\ @version\ May\ 10,\ 2016\r\n
+comment1.params=dir
+comment1.target=Projectile(int)
+comment1.text=\r\n\ Constructor\ for\ Projectile\ class.\ Sets\ the\ direction\ to\ given\ dir.\ Speed\ is\ 30.\r\n\r\n\ @param\ dir\ A\ parameter\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Moves\ forward,\ destroying\ enemeis\ in\ front.\ Destroys\ itself\ if\ runs\ into\ a\ brick\ or\ edge\ of\ world.\r\n
+comment3.params=
+comment3.target=void\ destroy()
+comment3.text=\r\n\ Removes\ enemies\ that\ it\ runs\ into.\r\n
+numComments=4

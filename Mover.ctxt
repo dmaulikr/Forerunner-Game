@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Mover
+comment0.text=\r\n\ Mover\ is\ an\ actor\ that\ can\ move\ and\ turn\ (at\ 90\ degree)\ angles\r\n\ \r\n\ @author\ Kevin\ Ge\r\n\ @version\ May\ 10,\ 2016\r\n
+comment1.params=angle
+comment1.target=void\ turn(int)
+comment1.text=\r\n\ Method\ turn\ at\ a\ given\ angle.\r\n\r\n\ @param\ angle\ to\ turn\r\n
+comment2.params=distance
+comment2.target=void\ move(double)
+comment2.text=\r\n\ With\ the\ power\ of\ Pythogorean's\ Theorem,\ move\!\r\n\r\n\ @param\ distance\ A\ parameter\r\n
+numComments=3

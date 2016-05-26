@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PowerUp
+comment0.text=\r\n\ This\ will\ create\ the\ attributes\ for\ the\ different\ power\ ups\ within\ the\ game\r\n\ This\ class\ will\ set\ the\ types\ for\ the\ powerups\ and\ their\ effects.\r\n\ \r\n\ @author\ Kevin\ Ge\r\n\ @author\ David\ Magnusson\r\n\ \r\n\ @version\ May\ 12,\ 2016\r\n
+comment1.params=
+comment1.target=PowerUp()
+comment1.text=\r\n\ Constructor\ for\ PowerUp\ class.\ Initialized\ the\ type\ and\ image\ when\ created.\r\n\ \r\n\ Kevin\ Ge\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Continuously\ checks\ for\ Runners\ to\ be\ picked\ up,\ else\ despawns\ after\ 3\ seconds.\r\n\ \r\n\ David\ Magnusson\r\n
+comment3.params=
+comment3.target=void\ activatePowerUps()
+comment3.text=\r\n\ Activates\ the\ various\ abilities\ of\ power\ ups.\r\n\ \r\n\ Kevin\ Ge\:\ Gem,\ Invincible,\ Slow\ Enemies\r\n\ David\ Magnusson\:\ Explosion,\ Triple\ Shots\r\n
+numComments=4

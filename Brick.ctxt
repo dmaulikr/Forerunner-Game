@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Brick
+comment0.text=\r\n\ Bricks\ destroys\ the\ Runner\ if\ run\ into.\r\n\ \r\n\ @author\ David\ Magnusson\r\n\ @version\ 5/15/16\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Removes\ Runner\ from\ world\ if\ it\ collides\ with\ me\ (Brick).\ Only\ if\ if\ is\ killable\ of\ course.\r\n
+numComments=2

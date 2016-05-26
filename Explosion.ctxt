@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Explosion
+comment0.text=\r\n\ Creates\ animated\ explosion\ that\ removes\ enemies\ caught\ in\ it.\r\n\ \r\n\ @author\ David\ Magnusson\r\n\ @version\ May\ 23,\ 2016\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Animates.\ Explodes\ once\ when\ created,\ deleteing\ all\ nearby\ enemies.\ Removes\ itself\ after\ one\ second\r\n
+numComments=2

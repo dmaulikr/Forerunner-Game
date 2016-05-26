@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Snake
+comment0.text=\r\n\ This\ creates\ the\ attributes\ for\ the\ fore\ runner.\ This\ class\ sts\ attributes\ such\r\n\ as\ the\ length\ as\ well\ as\ the\ type\ of\ forerunner.\r\n\ \r\n\ @author\ Kevin\ Ge\r\n\ @version\ May\ 12,\ 2016\r\n
+comment1.params=type
+comment1.target=Snake(int)
+comment1.text=\r\n\ Constructor\ for\ Runner\ (called\ Snake).\ Sets\ gif\ for\ animation,\ Gunner\ for\ 1st,\ Runner\ for\r\n\ every\ 4th,\ and\ transparent\ (for\ spacing)\ for\ all\ else.\r\n\r\n\ @param\ type\ of\ Runner\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Runs\ animations.\ Shoots\ if\ space\ is\ held.\ Sets\ Runners'\ image\ to\ those\ of\ Gunners\ if\ TripleShot\r\n\ is\ picked\ up.\ Sets\ killable\ to\ true\ if\ invincible\ for\ 4\ seconds\ already.\r\n
+comment3.params=
+comment3.target=void\ shoot()
+comment3.text=\r\n\ Shoots\ one\ bullet\ forward.\ Shoots\ triple\ if\ power\ up\ tripleShots\ is\ picked\ up.\r\n\ By\ Lawrence\ Cheng\ and\ David\ Magnusson\r\n
+comment4.params=
+comment4.target=void\ invincible()
+comment4.text=\r\n\ Sets\ Runner's\ killable\ to\ false,\ which\ is\ checked\ by\ other\ killers\ (Brick\ and\ Enemy)\r\n
+comment5.params=
+comment5.target=boolean\ isKillable()
+comment5.text=\r\n\ Returns\ if\ Runner\ is\ killable\ for\ other\ killers\ (Brick\ and\ Enemy)\r\n\r\n\ @return\ if\ Runner\ is\ killable\r\n
+comment6.params=
+comment6.target=void\ tripleShot()
+comment6.text=\r\n\ Triple\ shot\ powerup.\ Sets\ onlyOnce\ to\ true\ to\ Runner\ turns\ into\ \r\n\ Gunners\ once\ (stalls\ animation\ otherwise).\r\n
+comment7.params=shot
+comment7.target=void\ setShots(int)
+comment7.text=\r\n\ Sets\ the\ number\ of\ shots\ for\ this\ Runner\r\n\ \r\n\ @param\ shot\ to\ be\ set\ to\r\n
+numComments=8
